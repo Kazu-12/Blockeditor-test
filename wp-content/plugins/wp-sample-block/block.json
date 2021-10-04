@@ -1,0 +1,16 @@
+{
+	"apiVersion": 2,
+	"name": "create-block/wp-sample-block",
+	"version": "0.1.0",
+	"title": "Wp Sample Block",
+	"category": "widgets",
+	"icon": "smiley",
+	"description": "Example block written with ESNext standard and JSX support – build step required.",
+	"supports": {
+		"html": false
+	},
+	"textdomain": "wp-sample-block",
+	"editorScript": "file:./build/index.js",
+	"editorStyle": "file:./build/index.css",
+	"style": "file:./build/style-index.css"
+}
